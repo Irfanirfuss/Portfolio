@@ -1,0 +1,138 @@
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.about-main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  margin: 0;
+}
+.about-app {
+  display: flex;
+  justify-content: center;
+
+  background-color: #fff;
+  height: 90%;
+  width: 90%;
+  box-shadow: 0 0 5px #31304d;
+  border-radius: 20px;
+  padding-bottom: 150px;
+  margin: 10px;
+}
+
+.about-pic-container {
+  padding: 5px;
+  display: flex;
+}
+.about-ls {
+  width: 45%;
+}
+.name-container {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.about-container {
+  margin-bottom: 90px;
+  width: 45%;
+}
+.icons {
+  display: flex;
+}
+.icon {
+  margin-right: 10px;
+  margin-left: 20px;
+  border: 2px solid #0766ad;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+p {
+  color: #191717;
+  font-weight: 700;
+}
+
+span {
+  color: #31304d;
+  font-weight: 500;
+}
+.skills {
+  margin-bottom: -30px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.lli {
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 15px gray, inset 0 0 5px rgb(228, 6, 209);
+  margin: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+  color: #ffffff;
+  background-color: rgb(21, 128, 228);
+  padding: 8px;
+}
+.skill {
+  margin-left: 45px;
+  width: 95px;
+  border-bottom: 2px solid #192655;
+  color: #192655;
+}
+.sk {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-app {
+    flex-direction: column;
+  }
+  .skills {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+.linked:hover {
+  transform: scale(1.3);
+}
+
+@media screen and (max-width: 600px) {
+  .about-pic-container {
+    flex-direction: column;
+  }
+  .about-ls {
+    width: 90%;
+  }
+  .about-container {
+    width: 90%;
+  }
+}
+.about-me-section {
+  color: #191717;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.about-head {
+  margin-left: 9px;
+  color: #192655;
+}
+
+@media screen and (max-width: 400px) {
+  .about-pic-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .about-container {
+    margin-left: 30px;
+  }
+}

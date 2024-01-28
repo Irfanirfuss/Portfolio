@@ -1,0 +1,33 @@
+.projects-main {
+  width: 90%;
+
+  background-color: #000;
+
+  border-radius: 20px;
+  margin-left: 65px;
+
+  flex-wrap: wrap;
+}
+
+.project {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .projects-main {
+    margin-left: 25px;
+  }
+}
+.head {
+  border-bottom: 2px solid #95034c;
+  margin-left: 65px;
+
+  margin-right: 50px;
+}
+.p-main {
+  background-color: #000;
+  margin-top: -11px;
+  height: 100vh;
+}

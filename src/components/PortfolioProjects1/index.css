@@ -1,0 +1,28 @@
+.p-main1 {
+  min-height: 100vh;
+  background-color: #000;
+  margin-top: -10px;
+}
+.ul-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.head-1 {
+  margin-left: 70px;
+  border-bottom: 2px solid;
+  margin-top: 10px;
+  color: #fff;
+}
+.app {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: #fff;
+}

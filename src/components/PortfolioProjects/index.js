@@ -97,6 +97,14 @@ const projectsList = [
     username: '',
     password: '',
   },
+  {
+    id: v4(),
+    projectLink: 'https://irfansappstore.ccbp.tech/',
+    thumbnail:
+      'https://res.cloudinary.com/dqudhmfyo/image/upload/v1707634943/Screenshot_2024-02-11_123006_e3hf9t.png',
+    username: '',
+    password: '',
+  },
 ]
 
 class PortfolioProjects extends Component {

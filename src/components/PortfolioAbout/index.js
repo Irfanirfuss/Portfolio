@@ -1,4 +1,5 @@
-import {FaLinkedin, FaInstagramSquare} from 'react-icons/fa'
+import {FaLinkedin, FaInstagramSquare, FaGithub} from 'react-icons/fa'
+
 import {SiIndeed} from 'react-icons/si'
 
 import './index.css'
@@ -37,9 +38,17 @@ const PortfolioAbout = () => {
                   >
                     <FaLinkedin size={25} className="icon" />
                   </a>
+                  <a href="https://github.com/Irfanirfuss" target="blank">
+                    <FaGithub size={25} className="icon linked" color="#000" />
+                  </a>
                   <SiIndeed size={25} className="icon linked" />
-
-                  <FaInstagramSquare size={25} className="icon linked" />
+                  <a
+                    href="https://www.instagram.com/ezy_code_?igsh=MzNlNGNkZWQ4Mg=="
+                    target="blank"
+                    className="icon linked"
+                  >
+                    <FaInstagramSquare size={25} color="#d30d6d" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -71,7 +80,7 @@ const PortfolioAbout = () => {
             <p>
               My Resume :{' '}
               <a
-                href="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Shaik_2023-10-05-143503.pdf"
+                href="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Shaik_2023-12-20-161804.pdf"
                 target="blank"
               >
                 {' '}
